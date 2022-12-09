@@ -118,7 +118,6 @@ func processMoves(stacks []Stack, moves []string) {
 	}
 }
 
-// PWL func processMovesN(stacks []Stack, scanner *bufio.Scanner) {
 func processMovesN(stacks []Stack, moves []string) {
 	// just like processMoves, but pop and push N items for day05b
 	var move, from, to int
